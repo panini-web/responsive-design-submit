@@ -535,11 +535,35 @@ body {
   }
   .service{
     flex-wrap: wrap;
+    position: static;
+    margin-top: 10%;
   }
   .service-img,
-  .service-content_inner
+  .service-content_inner,
   .service-img_second,
   .service-content_inner_second{
     width: 100%;
+    margin: 0 auto;  
+    position: static;
+    max-width: 100%;
+    height: auto;
+  }
+  .company{
+    flex-wrap: wrap;
+    width: 100%;
+    position: static;
+  }
+  .recruit-company_size{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .faq{
+    width: 100%;
+    position: static;
+  }
+  .faq-title,
+  .faq-title-jp{
     
+  }
+
 }
