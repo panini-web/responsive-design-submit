@@ -538,11 +538,13 @@ body {
     position: static;
     margin-top: 10%;
   }
+ 
+
   .service-img,
   .service-content_inner,
   .service-img_second,
   .service-content_inner_second{
-    width: 100%;
+    width: 80%;
     margin: 0 auto;  
     position: static;
     max-width: 100%;
@@ -559,7 +561,8 @@ body {
   }
   .faq{
     padding: 0;
-    width: 100%;
+    width: 80%;
+    box-sizing: border-box;
   }
  .header-logo{
    max-width: 100%;
