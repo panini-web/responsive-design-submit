@@ -558,12 +558,13 @@ body {
     margin: 0 auto;
   }
   .faq{
+    padding: 0;
     width: 100%;
-    position: static;
   }
-  .faq-title,
-  .faq-title-jp{
-    
-  }
+ .header-logo{
+   max-width: 100%;
+   margin: 0;
+   width: 100%;
+ }
 
 }
